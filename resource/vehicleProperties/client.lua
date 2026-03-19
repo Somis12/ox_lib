@@ -201,6 +201,7 @@ function lib.getVehicleProperties(vehicle)
 
         return {
             model = GetEntityModel(vehicle),
+            modelname = GetEntityArchetypeName(vehicle),
             plate = GetVehicleNumberPlateText(vehicle),
             plateIndex = GetVehicleNumberPlateTextIndex(vehicle),
             lockState = GetVehicleDoorLockStatus(vehicle),
